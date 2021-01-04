@@ -1,0 +1,35 @@
+package expection.q190;
+
+//class E1 extends Exception{
+//}
+//class E2 extends RuntimeException{
+//}
+ public class App{
+//    public void m1() {
+//        System.out.println("m1.Accessed.");
+//        throw new E1();
+//    }
+//    public void m2(){
+//        System.out.println("m2.Accessed.");
+//        throw new E2();
+//    }
+    public static void main(String[] args) { // starts to read codes from main method
+//        int level = 1;   			 //onceki sezonda bu 4 mus				// ONLY CHANGE
+//        App obj = new App();
+//        if (level <= 5 && level >= 3){ // ==> true now!!
+//            obj.m1();                  // ==> executed -- causes compilation error
+//        } else {
+//            obj.m2();
+//        }
+    }// then m1 method causes exception
+}
+//
+///*
+//*
+//Which statement is true?
+//A. The program prints m1.Accessed.
+//B. The program fails compile due to the unhandled E1 exception.
+//C. The program prints m2.Accessed.
+//D. The program fails to compile due to the unhandled E2 exception.
+//* */
+//cevap B cunku thow yapilmais method
